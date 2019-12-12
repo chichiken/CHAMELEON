@@ -162,7 +162,7 @@
 
             </div>
             <div class="tabpanel2 txt_cen" role="tabpanel" id="tabpanel2" aria-labelledby="tab2">
-                <form action="" method="get">
+                <form class="jo_form" action="" method="get">
                     <table>
                         <caption>아이디, 비밀번호, 생년월일, 이름 입력필수</caption>
                         <tbody id="join">
@@ -178,12 +178,12 @@
                             <tr class="tr2">
                                 <th scope="row">비밀번호</th>
                                 <td>
-                                    <input type="password" id="upw" name="upw" maxlength="12">
-                                    <p class="jo_fz">비밀번호</p>
+                                    <input type="password" id="upw" name="upw" minlength="6" maxlength="12">
+                                    <p class="jo_fz">영어와 숫자로 6~12글자를 통해 구성해주세요.</p>
                                 </td>
                                 <th scope="row">비밀번호 확인</th>
                                 <td>
-                                    <input type="password" id="upwchk" name="upwchk" maxlength="12">
+                                    <input type="password" id="upwchk" name="upwchk" minlength="6" maxlength="12">
                                 </td>
                             </tr>
                             <tr class="tr3">
