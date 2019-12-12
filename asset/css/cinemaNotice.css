@@ -385,9 +385,10 @@ input[type="file"]
     box-sizing : border-box;
 
 }
-#quesForm .selAreaWrap li button
+#quesForm .selAreaWrap li button,
+#quesForm .selType li button
 {
-    width : 140px;
+    width : 120px;
 }
 
 #quesForm .selAreaWrap button .triangle:after,
@@ -586,6 +587,7 @@ input[type="file"]
 }
 .timeTable .printDate .pDate
 {
+    width : 200px;
     font-size : 30px;
     padding : 0px 15px;
 }
@@ -714,6 +716,7 @@ input[type="file"]
 
 #minimap
 {
+    display : none;
     margin-left : 40px;
     background: #e1e1e1;
     width : 238px;

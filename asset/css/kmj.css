@@ -101,14 +101,11 @@
 .featherlight-content .r_md .r_t_btn .r_t_prev:hover,.featherlight-content .r_md .r_t_btn .r_t_prev:focus{ background-image:url("../images/reserve/btn_prev_round_hover.gif"); border-color: #eb651e;}
 .featherlight-content .r_md .r_t_btn .r_t_next { right: 35px;top: 800px;background: url("../images/reserve/btn_next_round.gif") no-repeat 8px; }
 .featherlight-content .r_md .r_t_btn .r_t_next:hover,.featherlight-content .r_md .r_t_btn .r_t_next:focus {background-image:url("../images/reserve/btn_next_round_hover.gif"); border-color: #eb651e;}
-
 .featherlight-content .r_md .r_ticket:hover,.featherlight-content .r_md .r_ticket:focus ,.featherlight-content .r_md .r_ticket.on{ background: #eb651e;color: #ffffff;}
-.featherlight-content .r_md .r_ticket:hover .r_t_bottom strong:after ,.featherlight-content .r_md .r_ticket:hover .r_t_bottom strong:before ,.featherlight-content .r_md .r_ticket:hover .r_t_bottom button{background: #ffffff; color: #eb651e; font-weight: 500;}
+.featherlight-content .r_md .r_ticket:hover .r_t_bottom strong:after ,.featherlight-content .r_md .r_ticket:hover .r_t_bottom strong:before ,.featherlight-content .r_md .r_ticket:hover .r_t_bottom button,.featherlight-content .r_md .r_ticket:focus .r_t_bottom strong:after ,.featherlight-content .r_md .r_ticket:focus .r_t_bottom strong:before ,.featherlight-content .r_md .r_ticket:focus .r_t_bottom button,.featherlight-content .r_md .r_ticket.on .r_t_bottom strong:after ,.featherlight-content .r_md .r_ticket.on .r_t_bottom strong:before ,.featherlight-content .r_md .r_ticket.on .r_t_bottom button{background: #ffffff; color: #eb651e; font-weight: 500;}
 .featherlight-content .r_md .r_select_btn a{display: inline-block;width: 350px; height: 70px; font-size: 20px;font-weight: 500; text-align: center;line-height: 70px;color: #aaaaaa;background: #ffffff; border-top: 1px solid #aaa;border-right: 1px solid #aaa;}
 .featherlight-content .r_md .r_select_btn { left: 0px;bottom: 0;}
 .featherlight-content .r_md .r_select_btn a:hover ,.featherlight-content .r_md .r_select_btn a.on  {background: #eb651e;right: 0;color: #ffffff;border:none;}
-
-
 
 /* scroll */
 #reserve_quick .r_select { text-align: center; z-index: 700;}
